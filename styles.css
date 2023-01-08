@@ -35,94 +35,112 @@ section.failure {
   width: 1000px;
 }
 
-section.failure h2{
-    font-weight: 600;
-    font-size: 40px;
+section.failure h2 {
+  font-weight: 600;
+  font-size: 40px;
 }
 
 div.reasons {
   margin-left: 200px;
 }
 
-div.reasons ul{
-    list-style: none;
-    padding-left: 0;
+div.reasons ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.plans{
-    margin-top: -80px;
-    margin-bottom: 20px;
-    text-align: center;
-    
+.plans {
+  margin-top: -80px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.section_2_heading{
-    
-    font-size: 40px;
-    font-weight: 800;
+.section_2_heading {
+  font-size: 40px;
+  font-weight: 800;
 }
-.targets{
-    display: flex;
-    justify-content: space-evenly;
+.targets {
+  display: flex;
+  justify-content: space-evenly;
 }
-.goal h3{
-    font-size: 25px;
+.goal h3 {
+  font-size: 25px;
 }
 
-.calling{
-    
-    background-image: linear-gradient(45deg,#3f87a6,white) ;
-    margin: 50px 300px;
-    padding: 35px;
+.calling {
+  background-image: linear-gradient(45deg, #3f87a6, white);
+  margin: 50px 300px;
+  padding: 35px;
+  border-radius: 20px;
 }
 
-.call_btn{
-    padding: 10px 30px;
+.call_btn {
+  padding: 10px 30px;
   color: orangered;
   background-color: wheat;
   border-radius: 10px;
   border: 0;
 }
 
-.foot{
-    display: flex;
-    background-color: black;
-    color: whitesmoke;
-}
- .foot h3{
-    font-size: 35px;
-    
- }
-.future{
-    width: 400px;
-    padding: 85px 150px ;
-    
-}
-.subscribe{
-    padding: 85px 150px ;
+.section_4 {
+  display: flex;
+  justify-content: center;
 }
 
-#email{
-    width: 300px;
-    height: 30px;
-    padding: 7px 0;
-    color: whitesmoke;
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: black;
-    color: aquamarine;
+.comments {
+    padding-left: 30px;
+  width: 800px;
+  margin-bottom: 50px;
+  background: linear-gradient(45deg, #96E2FE, white);
+  border-radius: 20px;
 }
 
-.subscribe_btn{
-   margin: 30px 0;
-   padding: 10px 30px;
+.comment_btn{
+    margin: 30px 0;
+  padding: 10px 30px;
   color: orangered;
   background-color: white;
   border-radius: 10px;
   border: 0;
 }
 
-#email::placeholder{
-    color: white;
-    font-weight: bold;
-    text-align: center;
+.foot {
+  display: flex;
+  background-color: black;
+  color: whitesmoke;
+}
+.foot h3 {
+  font-size: 35px;
+}
+.future {
+  width: 400px;
+  padding: 85px 150px;
+}
+.subscribe {
+  padding: 85px 150px;
+}
+
+#email {
+  width: 300px;
+  height: 30px;
+  padding: 7px 0;
+  color: whitesmoke;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: aquamarine;
+}
+
+.subscribe_btn {
+  margin: 30px 0;
+  padding: 10px 30px;
+  color: orangered;
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+}
+
+#email::placeholder {
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
